@@ -1,0 +1,28 @@
+GITHUB PAR UPLOAD KARNE KE STEPS (WINDOWS)
+
+1. ZIP file ko download karke Extract All karein.
+2. github.com par login karein.
+3. Top right + -> New repository.
+4. Repository name: product-funnel-ab-testing-analytics
+5. Public select karein. 'Add a README file' checkbox UNCHECKED rakhein (local files me README hai).
+6. Create repository par click karein.
+7. Newly created repo me 'uploading an existing file' link ya Add file -> Upload files par click karein.
+8. Extracted Product_Funnel_AB_Testing_Portfolio folder ke ANDAR wali files/folders upload karein: README.md, requirements.txt, src, sql, data, outputs, images, docs, GITHUB_UPLOAD_STEPS_HINDI.txt, .gitignore.
+   Note: Agar browser folder drag-and-drop support nahi karta, Git Bash ke commands use karein (neeche).
+9. Commit message: Add product funnel A/B testing analytics portfolio
+10. Commit changes, phir repo home pe README aur images check karein.
+11. README padhkar 3 Python scripts apne laptop par run karein aur results samjhein.
+12. Repo URL ko CV me project hyperlink ke saath add karein.
+
+GIT BASH ALTERNATIVE (NEW EMPTY GITHUB REPO KE LIYE)
+
+cd /c/Users/YOUR_WINDOWS_USERNAME/Downloads/Product_Funnel_AB_Testing_Portfolio
+# Path apne computer ke according edit karein.
+git init
+git add .
+git commit -m "Add product funnel A/B testing analytics project"
+git branch -M main
+git remote add origin https://github.com/dashrathdj91-hue/product-funnel-ab-testing-analytics.git
+git push -u origin main
+
+Do not add API keys, passwords or private company/customer datasets to public GitHub.
